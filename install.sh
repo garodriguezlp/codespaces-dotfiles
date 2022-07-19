@@ -12,3 +12,7 @@ sudo apt-get -y install --no-install-recommends \
 
 # Workaround for `fd-find`
 ln -s $(which fdfind) ~/.local/bin/fd
+
+# Intalling oh-my-tmux
+git clone https://github.com/gpakosz/.tmux.git "$HOME/.tmux"
+ln -s -f "$HOME/.tmux/.tmux.conf" $HOME/.tmux.conf
