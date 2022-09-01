@@ -20,8 +20,10 @@ sudo apt-get -y install --no-install-recommends \
     neovim
 
 # oh-my-tmux
-git clone https://github.com/gpakosz/.tmux.git "$HOME/.tmux"
-ln -s -f "$HOME/.tmux/.tmux.conf" $HOME/.tmux.conf
+if [[ ! -d "$HOME/.tmux" ]]; then
+    git clone https://github.com/gpakosz/.tmux.git "$HOME/.tmux"
+    ln -s -f "$HOME/.tmux/.tmux.conf" $HOME/.tmux.conf
+fi
 
 # homebrew
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
