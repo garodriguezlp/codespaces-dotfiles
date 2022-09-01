@@ -13,7 +13,10 @@ sudo apt-get -y install --no-install-recommends \
     fd-find \
     ripgrep \
     tree \
-    autojump
+    autojump \
+    unzip \
+    zip \
+    neovim
 
 # Workaround for `fd-find`
 ln -s $(which fdfind) ~/.local/bin/fd

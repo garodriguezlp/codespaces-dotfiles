@@ -76,6 +76,7 @@ z4h load   ohmyzsh/ohmyzsh/plugins/github
 z4h load   ohmyzsh/ohmyzsh/plugins/autojump
 z4h load   ohmyzsh/ohmyzsh/plugins/common-aliases
 z4h load   ohmyzsh/ohmyzsh/plugins/aliases
+z4h load   garodriguezlp/dotfiles/bundles/sdk/sdk.zsh
 
 # Define key bindings.
 z4h bindkey z4h-backward-kill-word  Ctrl+Backspace     Ctrl+H
