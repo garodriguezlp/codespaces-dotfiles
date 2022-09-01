@@ -8,7 +8,8 @@ sudo apt-get -y install --no-install-recommends \
     procps \
     curl \
     file \
-    git
+    git \
+    zsh \
     tmux \
     fd-find \
     ripgrep \
@@ -17,9 +18,6 @@ sudo apt-get -y install --no-install-recommends \
     unzip \
     zip \
     neovim
-
-# Workaround for `fd-find`
-ln -s $(which fdfind) ~/.local/bin/fd
 
 # oh-my-tmux
 git clone https://github.com/gpakosz/.tmux.git "$HOME/.tmux"
