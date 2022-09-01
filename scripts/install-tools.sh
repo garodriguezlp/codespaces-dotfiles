@@ -28,3 +28,6 @@ NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Ho
 
 # sdkman
 curl -s "https://get.sdkman.io?rcupdate=false" | bash
+
+# spacevim
+curl -sLf https://spacevim.org/install.sh | bash
