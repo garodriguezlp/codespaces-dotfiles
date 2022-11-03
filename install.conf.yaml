@@ -13,6 +13,3 @@
       glob: true
       path: dotconf/*
       prefix: '.'
-
-- shell:
-    - ./scripts/install-tools.sh
