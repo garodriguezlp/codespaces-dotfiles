@@ -82,6 +82,8 @@ z4h load   ohmyzsh/ohmyzsh/plugins/gitignore
 z4h load   ohmyzsh/ohmyzsh/plugins/httpie
 z4h load   ohmyzsh/ohmyzsh/plugins/thefuck
 z4h load   ohmyzsh/ohmyzsh/plugins/tmux
+z4h load   ohmyzsh/ohmyzsh/plugins/mvn
+z4h load   ohmyzsh/ohmyzsh/plugins/gradle
 z4h load   ohmyzsh/ohmyzsh/plugins/web-search
 z4h load   garodriguezlp/codespaces-dotfiles/plugins/sdk
 z4h load   garodriguezlp/codespaces-dotfiles/plugins/nvim
