@@ -69,11 +69,20 @@ z4h source ~/.env.zsh
 #
 # This is just an example that you should delete. It does nothing useful.
 z4h source ohmyzsh/ohmyzsh/lib/diagnostics.zsh  # source an individual file
+z4h load   ohmyzsh/ohmyzsh/plugins/aliases
+z4h load   ohmyzsh/ohmyzsh/plugins/autojump
+z4h load   ohmyzsh/ohmyzsh/plugins/brew
+z4h load   ohmyzsh/ohmyzsh/plugins/common-aliases
+z4h load   ohmyzsh/ohmyzsh/plugins/extract
+z4h load   ohmyzsh/ohmyzsh/plugins/fzf
+z4h load   ohmyzsh/ohmyzsh/plugins/gh
 z4h load   ohmyzsh/ohmyzsh/plugins/git
 z4h load   ohmyzsh/ohmyzsh/plugins/github
-z4h load   ohmyzsh/ohmyzsh/plugins/autojump
-z4h load   ohmyzsh/ohmyzsh/plugins/common-aliases
-z4h load   ohmyzsh/ohmyzsh/plugins/aliases
+z4h load   ohmyzsh/ohmyzsh/plugins/gitignore
+z4h load   ohmyzsh/ohmyzsh/plugins/httpie
+z4h load   ohmyzsh/ohmyzsh/plugins/thefuck
+z4h load   ohmyzsh/ohmyzsh/plugins/tmux
+z4h load   ohmyzsh/ohmyzsh/plugins/web-search
 z4h load   garodriguezlp/codespaces-dotfiles/plugins/sdk
 z4h load   garodriguezlp/codespaces-dotfiles/plugins/nvim
 
