@@ -86,6 +86,7 @@ z4h load   ohmyzsh/ohmyzsh/plugins/gradle
 z4h load   ohmyzsh/ohmyzsh/plugins/httpie
 z4h load   ohmyzsh/ohmyzsh/plugins/jenv
 z4h load   ohmyzsh/ohmyzsh/plugins/mvn
+z4h load   ohmyzsh/ohmyzsh/plugins/nvm
 z4h load   ohmyzsh/ohmyzsh/plugins/thefuck
 z4h load   ohmyzsh/ohmyzsh/plugins/tmux
 z4h load   ohmyzsh/ohmyzsh/plugins/web-search
