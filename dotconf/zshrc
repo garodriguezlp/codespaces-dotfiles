@@ -79,11 +79,12 @@ z4h load   ohmyzsh/ohmyzsh/plugins/gh
 z4h load   ohmyzsh/ohmyzsh/plugins/git
 z4h load   ohmyzsh/ohmyzsh/plugins/github
 z4h load   ohmyzsh/ohmyzsh/plugins/gitignore
+z4h load   ohmyzsh/ohmyzsh/plugins/gradle
 z4h load   ohmyzsh/ohmyzsh/plugins/httpie
+z4h load   ohmyzsh/ohmyzsh/plugins/jenv
+z4h load   ohmyzsh/ohmyzsh/plugins/mvn
 z4h load   ohmyzsh/ohmyzsh/plugins/thefuck
 z4h load   ohmyzsh/ohmyzsh/plugins/tmux
-z4h load   ohmyzsh/ohmyzsh/plugins/mvn
-z4h load   ohmyzsh/ohmyzsh/plugins/gradle
 z4h load   ohmyzsh/ohmyzsh/plugins/web-search
 z4h load   garodriguezlp/codespaces-dotfiles/plugins/sdk
 z4h load   garodriguezlp/codespaces-dotfiles/plugins/nvim
@@ -120,3 +121,7 @@ setopt no_auto_menu  # require an extra TAB press to open the completion menu
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Add JBang to environment
+alias j!=jbang
+export PATH="$HOME/.jbang/bin:$PATH"
