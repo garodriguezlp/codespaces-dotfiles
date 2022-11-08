@@ -90,9 +90,10 @@ z4h load   ohmyzsh/ohmyzsh/plugins/nvm
 z4h load   ohmyzsh/ohmyzsh/plugins/thefuck
 z4h load   ohmyzsh/ohmyzsh/plugins/tmux
 z4h load   ohmyzsh/ohmyzsh/plugins/web-search
-z4h load   garodriguezlp/codespaces-dotfiles/plugins/sdk
-z4h load   garodriguezlp/codespaces-dotfiles/plugins/nvim
 z4h load   garodriguezlp/codespaces-dotfiles/plugins/jbang
+z4h load   garodriguezlp/codespaces-dotfiles/plugins/key-bindings
+z4h load   garodriguezlp/codespaces-dotfiles/plugins/nvim
+z4h load   garodriguezlp/codespaces-dotfiles/plugins/sdk
 
 # Define key bindings.
 z4h bindkey undo Ctrl+/   Shift+Tab  # undo the last command line change
