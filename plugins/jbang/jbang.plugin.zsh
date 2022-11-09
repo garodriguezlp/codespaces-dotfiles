@@ -2,4 +2,4 @@ if (( ! $+commands[jbang] )); then
   return
 fi
 
-source <(jbang completion)
+z4h source <(jbang completion)
