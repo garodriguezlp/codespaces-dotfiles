@@ -73,6 +73,7 @@ z4h source ~/.env.zsh
 #
 # This is just an example that you should delete. It does nothing useful.
 z4h source ohmyzsh/ohmyzsh/lib/diagnostics.zsh  # source an individual file
+z4h source ohmyzsh/ohmyzsh/lib/git.zsh  # source an individual file
 z4h load   ohmyzsh/ohmyzsh/plugins/aliases
 z4h load   ohmyzsh/ohmyzsh/plugins/autojump
 z4h load   ohmyzsh/ohmyzsh/plugins/brew
