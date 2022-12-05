@@ -85,9 +85,9 @@ z4h load   ohmyzsh/ohmyzsh/plugins/github
 z4h load   ohmyzsh/ohmyzsh/plugins/gitignore
 z4h load   ohmyzsh/ohmyzsh/plugins/gradle
 z4h load   ohmyzsh/ohmyzsh/plugins/httpie
-z4h load   ohmyzsh/ohmyzsh/plugins/jenv
 z4h load   ohmyzsh/ohmyzsh/plugins/mvn
 z4h load   ohmyzsh/ohmyzsh/plugins/nvm
+z4h load   ohmyzsh/ohmyzsh/plugins/sdk
 z4h load   ohmyzsh/ohmyzsh/plugins/thefuck
 z4h load   ohmyzsh/ohmyzsh/plugins/tmux
 z4h load   ohmyzsh/ohmyzsh/plugins/web-search
@@ -97,6 +97,9 @@ z4h load   garodriguezlp/codespaces-dotfiles/plugins/key-bindings
 z4h load   garodriguezlp/codespaces-dotfiles/plugins/milli
 z4h load   garodriguezlp/codespaces-dotfiles/plugins/nvim
 z4h load   garodriguezlp/codespaces-dotfiles/plugins/sdk
+
+# In order to avoid conflicts with `sdkman` this needs to be loaded after
+z4h load   ohmyzsh/ohmyzsh/plugins/jenv
 
 # Define key bindings.
 z4h bindkey undo Ctrl+/   Shift+Tab  # undo the last command line change
